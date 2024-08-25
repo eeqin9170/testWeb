@@ -2,7 +2,7 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
-    font-family: 'SimSun', '宋体', serif; /* Change font to SimSun (宋体) */
+    font-family: '懐訪体', serif; /* Change font to 懐訪体 */
     overflow: hidden;
 }
 
@@ -20,7 +20,7 @@ body, html {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image: url('https://pic.netbian.com/uploads/allimg/240820/222236-1724163756baa9.jpg'); /* 替换为您的背景图像 */
+    background-image: url('https://pic.netbian.com/uploads/allimg/240820/222236-1724163756baa9.jpg'); /* Background image */
     background-size: cover;
     background-position: center;
     z-index: 1;
@@ -30,7 +30,7 @@ body, html {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* 黑色半透明遮罩 */
+    background-color: rgba(0, 0, 0, 0.5); /* Black semi-transparent overlay */
     z-index: 2;
 }
 
@@ -41,18 +41,19 @@ body, html {
     z-index: 3;
     text-shadow: 2px 2px 5px black;
     margin-bottom: 50px;
+    font-family: '懐訪体', serif; /* Change font to 方正灵飞经小楷简 */
 }
 
 .logo-container {
     position: absolute; /* Absolute positioning */
     top: 20%; /* Adjust as needed */
-    left: 8%; /* Center horizontally */
+    left: 11%; /* Center horizontally */
     transform: translateX(-50%); /* Center horizontally */
     z-index: 3;
 }
 
 .logo {
-    width: 150px; /* Adjust the size as needed */
+    width: 300px; /* Adjust the size as needed */
     height: auto; /* Maintain aspect ratio */
 }
 
@@ -64,6 +65,7 @@ body, html {
     top: 65%; /* Center vertically */
     left: 25px; /* Move menu slightly to the right */
     transform: translateY(-50%); /* Center vertically */
+    font-family: '懐訪体', serif; /* Change font to 懐訪体 */
 }
 
 .menu li {
@@ -75,6 +77,7 @@ body, html {
     padding: 10px 20px;
     border-radius: 5px;
     background-color: transparent; /* Default transparent background */
+    font-family: '懐訪体', serif; /* Change font to 懐訪体 */
 }
 
 .menu li:hover {
@@ -82,9 +85,9 @@ body, html {
     background-color: rgba(227, 217, 103, 0.7); /* Light yellow background on hover */
 }
 
-/* 视频容器样式 */
+/* Video container styles */
 .video-container {
-    display: none; /* 默认隐藏视频容器 */
+    display: none; /* Hide video container by default */
     position: fixed;
     top: 0;
     left: 0;
@@ -111,4 +114,5 @@ body, html {
     padding: 5px 10px;
     border-radius: 5px;
     z-index: 5;
+    font-family: '懐訪体', serif; /* Change font to 懐訪体 */
 }
