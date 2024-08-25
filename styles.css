@@ -47,9 +47,10 @@ body, html {
     list-style: none;
     padding: 0;
     z-index: 3;
-    position: relative;
-    display: flex;
-    flex-direction: column; /* Stack menu items vertically */
+    position: absolute; /* Changed from relative to absolute */
+    top: 50%; /* Center vertically */
+    left: 20px; /* Move menu slightly to the right */
+    transform: translateY(-50%); /* Center vertically */
 }
 
 .menu li {
@@ -64,8 +65,8 @@ body, html {
 }
 
 .menu li:hover {
-    color: #000000; /* Gold highlight effect */
-    background-color: rgba(227, 217, 103, 0.7); /* Dark background on hover */
+    color: #000000; /* Black highlight effect */
+    background-color: rgba(227, 217, 103, 0.7); /* Light yellow background on hover */
 }
 
 /* 视频容器样式 */
