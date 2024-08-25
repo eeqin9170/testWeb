@@ -20,7 +20,7 @@ body, html {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image: url('https://wanuxi-storage.sgp1.cdn.digitaloceanspaces.com/2022/08/Wukong-2.jpg'); /* 替换为您的背景图像 */
+    background-image: url('https://pic.netbian.com/uploads/allimg/240820/222236-1724163756baa9.jpg'); /* 替换为您的背景图像 */
     background-size: cover;
     background-position: center;
     z-index: 1;
@@ -43,13 +43,26 @@ body, html {
     margin-bottom: 50px;
 }
 
+.logo-container {
+    position: absolute; /* Absolute positioning */
+    top: 20%; /* Adjust as needed */
+    left: 8%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    z-index: 3;
+}
+
+.logo {
+    width: 150px; /* Adjust the size as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
 .menu {
     list-style: none;
     padding: 0;
     z-index: 3;
     position: absolute; /* Changed from relative to absolute */
-    top: 50%; /* Center vertically */
-    left: 20px; /* Move menu slightly to the right */
+    top: 65%; /* Center vertically */
+    left: 25px; /* Move menu slightly to the right */
     transform: translateY(-50%); /* Center vertically */
 }
 
